@@ -11,6 +11,7 @@ public class Calculator {
         System.out.println("Введите данные одной строкой в формате: Число действие число. Пробелы обязательны");
         sample = reader.readLine();
         System.out.println(calc(sample));
+        reader.close();
 
     }
 
